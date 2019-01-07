@@ -14,7 +14,7 @@ module.exports = {
       {
         test: /\.tsx?$/,
         loader: 'ts-loader',
-        exclude: [ /node_modules/, /\.vue\.ts$/ ],
+        exclude: [ /node_modules/, /\.lit\.ts$/ ],
         options: {
           appendTsSuffixTo: [/\.vue$/],
         }
@@ -24,7 +24,7 @@ module.exports = {
         loader: 'vue-loader' 
       },
       {
-        test: /\.vue\.ts$/,
+        test: /\.lit\.ts$/,
         loader: 'vue-loader',
         options: {
           compiler: require("vue-literal-compiler"),
