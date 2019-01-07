@@ -1,4 +1,4 @@
-/** @VueLiteralCompiler Functional Template */
+/** @VueLiteralCompiler Template */
 const template = (app:App) => html`
   <div class="app">
     <h1>${ app.message }</h1>
